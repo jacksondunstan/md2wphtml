@@ -1,6 +1,6 @@
 # Purpose
 
-A small command line tool to convert Markdown files into HTML formatted for WordPress configured with the [WP-GeSHi-Highlight](https://wordpress.org/plugins/wp-geshi-highlight/) plugin.
+A small command line tool to convert Markdown files into HTML formatted for WordPress configured with the [WP-GeSHi-Highlight](https://wordpress.org/plugins/wp-geshi-highlight/) plugin. It uses [Showdown](http://showdownjs.com/) and then performs additional processing.
 
 # Installation
 
