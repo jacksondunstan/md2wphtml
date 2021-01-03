@@ -1,0 +1,13 @@
+{
+  "name": "md2wphtml",
+  "version": "1.0.0",
+  "description": "Converts Markdown to HTML for WordPress",
+  "main": "md2wphtml.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "showdown": "^1.9.1"
+  }
+}
