@@ -18,7 +18,7 @@ if (!mdPath || !htmlPath) {
 // Read Markdown file
 ////////////////////////////////////////////////////////////////////////////////
 
-const markdown = fs.readFileSync('article.md', 'utf8');
+const markdown = fs.readFileSync(mdPath, 'utf8');
 
 ////////////////////////////////////////////////////////////////////////////////
 // Convert Markdown to HTML (first pass only)
@@ -137,5 +137,5 @@ while (lines[0].trim().length === 0) {
 // Output HTML to file and clipboard
 ////////////////////////////////////////////////////////////////////////////////
 
-fs.writeFileSync('article.html', html, 'utf-8');
+fs.writeFileSync(htmlPath, html, 'utf-8');
 clipboardy.writeSync(html);
