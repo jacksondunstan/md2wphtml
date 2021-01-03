@@ -132,6 +132,7 @@ while (lines[lines.length - 1].trim().length === 0) {
 while (lines[0].trim().length === 0) {
   lines.shift();
 }
+html = lines.join('\n');
 
 ////////////////////////////////////////////////////////////////////////////////
 // Output HTML to file and clipboard
